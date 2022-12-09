@@ -1,5 +1,7 @@
 # migrant
 
+Ubuntu GUI Vagrant file.
+
 ## Make and run the VM
 
 ```
