@@ -1,7 +1,7 @@
 # https://gist.github.com/niw/bed28f823b4ebd2c504285ff99c1b2c2
 
 Vagrant.configure("2") do |config|
-  config.vm.box = "ubuntu/bionic64"
+  config.vm.box = "ubuntu/focal64"
   config.vm.provider :virtualbox do |v|
     v.gui = true
     v.memory = 8192
