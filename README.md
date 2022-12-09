@@ -29,5 +29,3 @@ vagrant ssh
 vagrant destroy
 vagrant box remove ubuntu/bionic64
 ```
-
-Delete the VirtualBox VMs (usually found under `~/VirtualBox VMs/`).
