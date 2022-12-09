@@ -8,7 +8,9 @@ Ubuntu GUI Vagrant file.
 vagrant up
 ```
 
-Wait until everything has been provisioned and the command terminates. The VM should reboot.
+Wait until everything has been provisioned, the command terminates and the VM reboots.
+
+Set up "Shared Clipboard" in VirtualBox via "Machine" -> "Settings" -> "Advanced".
 
 ## Log in to the VM
 
@@ -27,3 +29,5 @@ vagrant ssh
 vagrant destroy
 vagrant box remove ubuntu/bionic64
 ```
+
+Delete the VirtualBox VMs (usually found under `~/VirtualBox VMs/`).
