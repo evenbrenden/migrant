@@ -6,12 +6,12 @@
 vagrant up
 ```
 
+Wait until everything has been provisioned and the command terminates. The VM should reboot.
+
 ## Log in to the VM
 
-```
-ubuntu-bionic login: vagrant
-Password: vagrant
-```
+> Username: vagrant
+> Password: vagrant
 
 ## SSH into VM
 
@@ -19,15 +19,10 @@ Password: vagrant
 vagrant ssh
 ```
 
-## Reload the VM
-
-```
-vagrant reload
-```
-
 ## Destroy the VM
 
 ```
 vagrant destroy
+rm -rf .vagrant/
 vagrant box remove ubuntu/bionic64
 ```
