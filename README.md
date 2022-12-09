@@ -27,5 +27,5 @@ vagrant ssh
 
 ```
 vagrant destroy
-vagrant box remove ubuntu/bionic64
+vagrant box remove ubuntu/focal64
 ```
