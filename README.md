@@ -1,6 +1,6 @@
 # migrant
 
-Ubuntu GUI Vagrant file.
+Ubuntu GUI Vagrant box.
 
 ## Make and run the VM
 
