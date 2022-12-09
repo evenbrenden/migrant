@@ -1,6 +1,6 @@
 # migrant
 
-## Start the VM
+## Make and run the VM
 
 ```
 vagrant up
@@ -19,7 +19,7 @@ Wait until everything has been provisioned and the command terminates. The VM sh
 vagrant ssh
 ```
 
-## Destroy the VM
+## Remove the VM
 
 ```
 vagrant destroy
