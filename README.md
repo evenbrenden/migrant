@@ -10,8 +10,8 @@ Wait until everything has been provisioned and the command terminates. The VM sh
 
 ## Log in to the VM
 
-> Username: vagrant
-> Password: vagrant
+- Username: `vagrant`
+- Password: `vagrant`
 
 ## SSH into VM
 
